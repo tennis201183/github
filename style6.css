@@ -88,13 +88,15 @@ a{
 .header .menu{
   display: flex;
   justify-content: space-between;
-  
-  font-size: 16px;
-  line-height: 22px;
-  color: #3F5D45;
+ 
 }
 .menu li {
   padding-left: 60px;
+}
+.menu li a{
+  font-size: 16px;
+  line-height: 22px;
+  color: #3F5D45;
 }
 
 /*----------------------banner----------------------------------*/
