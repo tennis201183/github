@@ -130,10 +130,8 @@ a{
   padding-top: 15px;
 }
 .sidebar li a{
-
   color: #3F5D45;
   font-weight: bold;
-  text-decoration: none;
 
   border: #EAF0ED solid 1px;
   padding-bottom: 15px;
@@ -157,11 +155,11 @@ a{
 }
 
 .product li{
-  position: relative;
-
   padding-left:20px;
   padding-bottom:20px;
+  position: relative;
 }
+
 .product .sales img{
   position: absolute;
   top: 19px;
@@ -183,6 +181,7 @@ a{
 .detail{
   display: flex;
   max-width: 300px;	
+  align-items:center;
 }
 .detail h3{
   width: 60%;
@@ -206,9 +205,8 @@ a{
   border-right: 1px solid #EAF0ED;
   padding: 14px 20px 14px 25px;
 }
-.shop .goshop{
-  width: 300px;
-  height:65px;
+.goshop{
+  width: 100%;
   font-size: 24px;
   color:#3F5D45;
   background-color: #EAF0ED;
@@ -286,31 +284,27 @@ a{
   padding-right:20px;
 }
 .email{
-  background-color: #EAF0ED;
-  width: 380px;
-  height: 56px;
-
-  margin: 30px 0px 30px 0px;
-
   display: flex;
-  justify-content: space-between;
 }
 
 .email label{
-  padding: 16px 0px 16px 20px;
-
   display: flex;
+  width:300px;
+  position: relative;
 }
 
 .email label img{
-  padding-right: 20px;
+  position: absolute;
+  top: 16px;
+  left:16px;
 }
 
 .email input[type="text"]{
-  background-color: #EAF0ED;
+  width: 100%;
   cursor:pointer;
   border: none;
   outline: none;
+  text-indent: 50%;
 }
 .email input[type="submit"]{
   width: 64px;
@@ -327,6 +321,7 @@ a{
 
 .footer{
   background-color:#EAF0ED ;
+  padding-bottom: 30px;
 }
 .footer-inner{
   display: flex;
@@ -335,7 +330,6 @@ a{
 }
 .info img{
   width: 171px;
-  height: 27px;
   margin-top: 38.9px;
   margin-bottom: 115.5px;
 }
@@ -362,7 +356,9 @@ a{
 .social img{
   width: 32px;
   height: 32px;
-  margin-right: 8px;
+}
+.social li a{
+  margin-right:8px;
   margin-top: 30px;
 }
 .footer-inner p{
@@ -383,10 +379,10 @@ a{
     justify-content: center;
   }
   .product li{
-    width:50%;
+    padding-left: 0px;
   }
   .product ul{
-    margin-left: 20px;
+    justify-content:space-around;
   }
   .product{
     width: 100%;
